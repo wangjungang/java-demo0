@@ -30,7 +30,7 @@ public class addTest {
         //2.获得数据库链接
         Connection conn=DriverManager.getConnection(URL, USER_NAME, PASSWORD);
         //3.通过数据库的连接操作数据库，实现增删改查（使用Statement类）
-        String s=""+"insert into net_tableinfo(age,name,address) values('12','lilei','beijin')";
+        String s=""+"insert into net_tableinfo(age,name,address) values('1222','hanb','shanghai')";
         PreparedStatement pst=conn.prepareStatement(s);
 
         //pst.setString(1, "xiaoshuai1");
